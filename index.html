@@ -77,26 +77,42 @@
 
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="index.html">Thaissa Bueno Sanches</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="articles.html">Articles & Research Papers</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="videos.html">YouTube Videos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact & About Me</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+<body>
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top"> <!-- 'navbar-inverse' for black background -->
+        <div class="container-fluid">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="YOUR_URL_HERE">Thaissa Bueno Sanches</a> <!-- Replace 'YOUR_URL_HERE' with your home page URL -->
+            </div>
+
+            <!-- Collect the nav links and other content for toggling -->
+            <div class="collapse navbar-collapse" id="portfolio-navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#research">Research & Articles</a></li>
+                    <li><a href="#youtube">YouTube Videos</a></li>
+                    <li><a href="#contact">Contact & About</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Social Media Icons: Replace '#'' with your social media links -->
+                    <li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
 
 <!-- Resume Content -->
 <div class="container mt-5">
@@ -298,8 +314,11 @@
     <p class="mt-3">&copy; 2023 Thaissa Bueno Sanches</p>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Include Bootstrap JS and jQuery at the end of the body for optimal performance -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- Include Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </body>
 </html>
