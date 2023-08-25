@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Title for SEO -->
@@ -12,7 +13,9 @@
 
     <!-- Keywords related to the content of the page. Note that Google doesn't use meta keywords in its ranking algorithm. -->
     <meta name="keywords" content="Thaissa Bueno Sanches, Data, AI, Software Architect, C# backend, ASP.NET, Bootstrap, Microsoft MVP, Artificial Intelligence">
-
+    
+    <meta name="author" content="Thaissa Bueno Sanches">
+ 
     <!-- This helps in defining the primary language of the document. -->
     <meta http-equiv="Content-Language" content="en">
 
@@ -26,9 +29,11 @@
     <!-- Canonical URL helps to prevent duplicate content issues. -->
     <link rel="canonical" href="YOUR_URL_HERE"> <!-- Replace 'YOUR_URL_HERE' with the actual URL -->
 
-    <!-- Load Bootstrap CSS and any other stylesheets -->
+    <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Include Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Thaissa Bueno Sanches | Data & AI Specialist</title>
 
     <!-- [OPTIONAL] Structured data: This is a sample for a person, but you may need more customization based on your exact needs. -->
     <script type="application/ld+json">
@@ -74,15 +79,10 @@
         }
     </style>
 </head>
-
-<body>
-
 <body>
     <!-- Start of Navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top"> <!-- 'navbar-inverse' for black background -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
-
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-navbar" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -90,10 +90,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="YOUR_URL_HERE">Thaissa Bueno Sanches</a> <!-- Replace 'YOUR_URL_HERE' with your home page URL -->
+                <a class="navbar-brand" href="#">Thaissa Bueno Sanches</a>
             </div>
-
-            <!-- Collect the nav links and other content for toggling -->
             <div class="collapse navbar-collapse" id="portfolio-navbar">
                 <ul class="nav navbar-nav">
                     <li><a href="#resume">Resume</a></li>
@@ -102,7 +100,6 @@
                     <li><a href="#contact">Contact & About</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- Social Media Icons: Replace '#'' with your social media links -->
                     <li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -114,6 +111,20 @@
     </nav>
     <!-- End of Navbar -->
 
+        <!-- Start of Content -->
+    <div class="container" style="margin-top: 70px;"> <!-- Offset for the fixed navbar -->
+        <h1>Welcome! I'm Thaissa Bueno Sanches</h1>
+        <p>Software Developer with over 12 years of experience, specializing in Data & AI.</p>
+        <!-- Introduction Video Space -->
+        <section id="intro-video">
+            <h2 class="text-center text-primary">Introduction Video</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="YOUR_VIDEO_LINK_HERE" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
 <!-- Resume Content -->
 <div class="container mt-5">
     <h1>Welcome! I'm Thaissa Bueno Sanches</h1>
@@ -289,36 +300,50 @@
         <td>Microsoft</td>
     </tr>
 </table>
-
 </div>
-<!-- Footer -->
-<footer class="text-center py-3">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" href="articles.html">Articles & Research Papers</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="videos.html">YouTube Videos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact & About Me</a>
-        </li>
-    </ul>
+        </section>
 
-    <!-- Social Media Icons -->
-    <a href="YOUR_FACEBOOK_URL" class="mr-3"><i class="fab fa-facebook-f"></i></a>
-    <a href="YOUR_TWITTER_URL" class="mr-3"><i class="fab fa-twitter"></i></a>
-    <a href="YOUR_INSTAGRAM_URL" class="mr-3"><i class="fab fa-instagram"></i></a>
-    <a href="YOUR_YOUTUBE_URL"><i class="fab fa-youtube"></i></a>
+        <!-- Research & Articles Section -->
+        <section id="research">
+            <!-- ... Your research & articles content ... -->
+        </section>
 
-    <p class="mt-3">&copy; 2023 Thaissa Bueno Sanches</p>
-</footer>
+        <!-- YouTube Videos Section -->
+        <section id="youtube">
+            <!-- ... Your YouTube videos content ... -->
+        </section>
 
-<!-- Include Bootstrap JS and jQuery at the end of the body for optimal performance -->
+        <!-- Contact & About Section -->
+        <section id="contact">
+            <!-- ... Your contact & about me content ... -->
+        </section>
+
+    </div>
+    <!-- End of Content -->
+
+    <!-- Start of Footer -->
+    <footer class="footer bg-black text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <ul class="footer-nav">
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#research">Research & Articles</a></li>
+                        <li><a href="#youtube">YouTube Videos</a></li>
+                        <li><a href="#contact">Contact & About</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 text-right">
+                    <span>&copy; 2023 Thaissa Bueno Sanches</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Include Bootstrap JS and jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
-    <!-- Include Font Awesome for social media icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </body>
+
 </html>
